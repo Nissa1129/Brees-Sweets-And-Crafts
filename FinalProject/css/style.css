@@ -141,7 +141,7 @@ footer{
     height: 100px;
     width: 100vw;
     background-color: black;
-    margin: -3px;
+    margin: 0px;
 }
 
 .fa {
@@ -179,7 +179,7 @@ footer{
     color: white;
   }
 .footer-text{
-    font-size: 20px;
+    font-size: 18px;
     color: azure;
     text-align: center;
     font-family: fantasy;
