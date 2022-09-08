@@ -60,4 +60,17 @@ nav ul li a:hover{
 nav ul li a:active{
     color: darkmagenta;
 }
-/* this is the end of my section */
+/* this is the end of my navsection */
+/* this is the start to my hero section */
+.background{
+    width: 100vw;
+    height: 1000px;
+    font-size: 20px;
+    text-align: center ;
+    font-family: fantasy;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative ; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(8, 6, 6, 0.543)), url("./../img/background1.jpeg");
+}
