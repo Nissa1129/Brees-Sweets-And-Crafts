@@ -1,3 +1,1 @@
-# Day8-Example
-This is an example repository 
-I'm adding this to push up to github
+This is the repository for my W4B Sept. 2022 Final Project.
