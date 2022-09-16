@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: 
     border-box;
+    font-family: fantasy;
     
 
 }
@@ -63,13 +64,6 @@ nav ul li a:active{
     color: darkmagenta;
 }
 
-.birthdaycake{
-    height: 120px;
-    width: 120px;
-    clear: both;
-    float: left;
-    position: relative;
- }
 .back-image{
     width: 100%;
    height: 100%;
@@ -84,21 +78,108 @@ nav ul li a:active{
  }
  /* this is the end of my header */
  /* This is the start to my hero section */
-.cake{
-    padding: 10px 10px 10px 10px;
+.box{
+    height: 400px;
+    width: 400px;
     display: inline-block;
-    clear: both;
-    height: 20px;
-    width: 20px;
-    position: center;
-
-
+    padding: 0;
+    margin: 40px;
+    table-layout: fixed;
+}
+.box1{
+    background-image: url(./../img/cake1.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box2{
+    background-image: url(./../img/cake3.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url(./../img/cake4.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box4{
+    background-image: url(./../img/cake5.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box5{
+    background-image: url(./../img/cake6.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box6{
+    background-image: url(./../img/cake7.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box7{
+    background-image: url(./../img/cake8.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box8{
+    background-image: url(./../img/cake9.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box9{
+    background-image: url(./../img/cake10.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box10{
+    background-image: url(./../img/cake11.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box11{
+    background-image: url(./../img/cake12.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box12{
+    background-image: url(./../img/cake13.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.orders{
+    width: 100;
+    height: 700px;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 17px;
+    resize: none;
+}
+input{
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: black;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: pink;
+    border-image: initial;
 
 }
-
-
-
-
  /* this is the end of my hero section */
  /* this is the start to my footer */
 footer{
