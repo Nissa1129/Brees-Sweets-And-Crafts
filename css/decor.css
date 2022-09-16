@@ -11,6 +11,7 @@ header{
     height: 30px;
     background-color: black;
     font-style: italic;
+    top: 0;
 
 }
 header p{
@@ -71,3 +72,127 @@ nav ul li a:active{
 
 } */
 /* end to my nav */
+/* this is the start of my content */
+.box{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    padding: 0;
+    margin: 40px;
+    table-layout: fixed;
+}
+.box1{
+    background-image: url(./../img/decor1.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box2{
+    background-image: url(./../img/decor2.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url(./../img/decor3.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box4{
+    background-image: url(./../img/decor4.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box5{
+    background-image: url(./../img/decor5.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box6{
+    background-image: url(./../img/decor6.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box7{
+    background-image: url(./../img/decor7.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box8{
+    background-image: url(./../img/decor8.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box9{
+    background-image: url(./../img/decor9.jpg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box10{
+    background-image: url(./../img/decor10.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box11{
+    background-image: url(./../img/decor10.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box12{
+    background-image: url(./../img/decor12.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+/* this is the end of my content */
+/* this is the start to my footer */
+footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    margin: 0px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    margin: 30px 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #9d1052;
+    color: white;
+  }
+.footer-text{
+    font-size: 18px;
+    color: azure;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    padding-top: 30px;
+}

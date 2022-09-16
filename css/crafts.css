@@ -61,10 +61,125 @@ nav ul li a:hover{
 nav ul li a:active{
     color: darkmagenta;
 }
-.bottle{
-    height: 120px;
-    width: 120px;
-    clear: both;
-    float: left;
+/* this is the end of my nav and the start of my content */
+.box{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    padding: 0;
+    margin: 40px;
+    table-layout: fixed;
+}
+.box1{
+    background-image: url(./../img/bottles1.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box2{
+    background-image: url(./../img/bottles2.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url(./../img/bottles3.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box4{
+    background-image: url(./../img/bottles4.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box5{
+    background-image: url(./../img/bottles5.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box6{
+    background-image: url(./../img/bottles6.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box7{
+    background-image: url(./../img/bottles7.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box8{
+    background-image: url(./../img/bottles8.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box9{
+    background-image: url(./../img/bottles9.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box10{
+    background-image: url(./../img/bottles10.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box11{
+    background-image: url(./../img/bottles11.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+.box12{
+    background-image: url(./../img/bottles12.jpeg);
+    background-position: center;
+    background-size: cover;background-repeat: no-repeat;
+}
+/* this is the start to my footer */
+ footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    margin: 0px;
     position: relative;
- }
+    bottom: 0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    margin: 30px 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #9d1052;
+    color: white;
+  }
+.footer-text{
+    font-size: 18px;
+    color: azure;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    padding-top: 30px;
+}

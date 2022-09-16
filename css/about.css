@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: 
     border-box;
+    font-family: fantasy;
 
 }
 /* start to my header */
@@ -62,24 +63,37 @@ nav ul li a:active{
 }
 /* this is the end of my navsection */
 /* this is the start to my hero section */
-.background{
-    width: 100vw;
-    height: 1000px;
-    font-size: 20px;
-    text-align: center ;
-    font-family: fantasy;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* position: relative ; */
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(8, 6, 6, 0.543)), url("./../img/background1.jpeg");
+.hero{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-style: italic;
+    
 }
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 500px;
+    background-image: url(./../img/about.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+.info{
+    margin-bottom: 100px;
+}
+
 /* this is the start to my footer */
 footer{
-    height: 100px;
-    width: 100vw;
+    height: 7rem;
+    width: 100%;
     background-color: black;
     margin: 0px;
+    position: absolute;
+    bottom: 0;
 }
 
 .fa {
