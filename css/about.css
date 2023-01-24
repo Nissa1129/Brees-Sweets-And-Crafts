@@ -5,18 +5,20 @@
     box-sizing: 
     border-box;
     font-family: fantasy;
+    /* background-color: rgb(49, 49, 49);
+    z-index: -999; */
 
 }
 /* start to my header */
 header{
     width: 100%;
     height: 30px;
-    background-color: black;
+    background-color: rgb(63, 0, 0);
     font-style: italic;
 
 }
 header p{
-    color: ghostwhite;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
     padding: 8px 8px;
@@ -28,7 +30,7 @@ nav{
     width: 100vw;
     height: 100px;
     background-color:
-     pink;
+     rgb(0, 0, 0);
      
 }
 nav ul{
@@ -50,16 +52,16 @@ nav li{
     
 }
 nav ul li a{
-    color: white;
+    color: rgb(150, 41, 41);
     text-decoration: none;
     font-style: italic;
 }
 nav ul li a:hover{
-    color: darkmagenta;
+    color: rgb(124, 28, 28);
 
 }
 nav ul li a:active{
-    color: darkmagenta;
+    color: rgb(63, 0, 0);
 }
 /* this is the end of my navsection */
 /* this is the start to my hero section */
@@ -127,7 +129,7 @@ footer{
   }
   /* Instagram */
   .fa-instagram {
-    background: #9d1052;
+    background: #690b37;
     color: white;
   }
 .footer-text{
